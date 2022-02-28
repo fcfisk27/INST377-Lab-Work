@@ -1,19 +1,55 @@
-YOUR NAME Lab 4: HTML Forms
-
-today's date
-Database Demos
-Main Page
-
-Group Project Link (no site yet)
-Awesome Logo
-Github Link
-
-image_1
-image_2
-image_3
-image_4
-image_5
-
-footer item 1
-footer item 2
-footer item 3
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p class="title">FERNANDO FISK Lab 4: HTML Forms</p>
+        <div class="menu-container">
+            <div class="menu">
+                <div class="date">February 28, 2022</div>
+                <div class="links">
+                    <div class="demos"><a href="data.html">Database Demos</a></div>
+                    <div class="main"><a href="index.html">Main Page</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="header">
+                <div class="project">Group Project Link (no site yet)</div>
+                <div class="logo"><img src='images/awesome-logo.svg'></div>
+                <div class="github"><a href="https://github.com/fcfisk27/INST377-Lab-Work">My Github</a></div>
+            </div>
+        </div>
+        <div class='photo-grid-container'>
+            <div class='carousel'>
+              <div class='carousel_item visible-item'>
+                <img src='images/one.svg'/>
+              </div>
+              <div class='carousel_item'>
+                <img src='images/two.svg'/>
+              </div>
+              <div class='carousel_item'>
+                <img src='images/three.svg'/>
+              </div>
+              <div class='carousel_item'>
+                <img src='images/four.svg'/>
+              </div>
+              <div class='carousel_item'>
+                <img src='images/five.svg'/>
+              </div>
+              <div class="carousel_actions">
+                  <button id="carousel_button--prev">prev</button>
+                  <button id="carousel_button--next">next</button>
+              </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-item footer-one">footer item 1</div>
+            <div class="footer-item footer-two">footer item 2</div>
+            <div class="footer-item footer-three">footer item 3</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

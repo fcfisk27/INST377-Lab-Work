@@ -16,6 +16,14 @@ body {
 .columns {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.columns form {
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -24,4 +32,32 @@ body {
 .container {
   max-width: 960px;
   margin-top: 25px;
+}
+
+.header {
+  display: flex;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: hsl(0, 100%, 67%);
+}
+
+.page_item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #efefef;
+  height: fit-content;
+}
+
+.form_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+
+}
+
+.button {
+  background-color: rgb(193, 243, 14);
 }

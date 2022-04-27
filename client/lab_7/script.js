@@ -6,6 +6,8 @@ function getRandomIntInclusive(min, max) {
   ); // The maximum is inclusive and the minimum is inclusive
 }
 
+// push
+
 function restoArrayMake(dataArray) {
   console.log('fired dataHandler');
   // console.table(dataArray); // this is called "dot notation"
